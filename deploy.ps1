@@ -1,3 +1,4 @@
+# First set the location to "blog-preview"
 Set-Location ../blog-preview
 
 Write-Host "Deploying..."
@@ -8,4 +9,5 @@ git push
 
 Write-Host "Deployed Completed!"
 
+# Finally, return to "blob"
 Set-Location ../blob
